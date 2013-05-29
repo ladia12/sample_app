@@ -14,8 +14,9 @@ group :development do
 end
 
 group :development, :test do
-  gem 'mysql2'
+  
   gem 'rspec-rails' , '2.11.0'
+  gem 'mysql2'
 end
 
 # Gems used only for assets and not required
